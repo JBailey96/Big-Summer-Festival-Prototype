@@ -1,0 +1,58 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" xmlns:local="clr-namespace:BigSummerFestivalProjScreens" x:Name="BigSummerFestivalProjScreens_Camping_1_Name"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalProjScreens.Camping_1"
+	Width="640" Height="1136">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="220" Margin="273,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="295"/>
+		<TextBlock HorizontalAlignment="Left" Height="135" Margin="307.676,241,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Stock photograph of camping activity" VerticalAlignment="Top" Width="250"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="224" Margin="245,381,0,0" Stroke="Black" VerticalAlignment="Top" Width="345"/>
+		<TextBlock HorizontalAlignment="Left" Height="221" Margin="245,384,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Width="330"><Run FontWeight="Bold" Text="Camping Information"/><Run FontWeight="Bold" Text="/Advice"/><LineBreak/><Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/><LineBreak/><Run Text=" Nullam a viverra diam. Maecenas accumsan non dui tempor"/><LineBreak/><Run Text=" convallis. Vivamus dapibus velit ipsum, quis eleifend diam "/><LineBreak/><Run Text="porta sit amet. Praesent a ligula mi. Proin rutrum tempor "/><LineBreak/><Run Text="orci non tempus. Quisque eu tellus nunc. Sed commodo "/><LineBreak/><Run Text="lobortis risus tempor interdum. Morbi sollicitudin risus"/><LineBreak/><Run Text=" ac magna dapibus facilisis. Aliquam mattis mauris non "/><LineBreak/><Run Text="quam fermentum fringilla. Duis pulvinar tellus velit, nec"/><LineBreak/><Run Text=" pellentesque turpis varius sit amet. Duis suscipit ligula "/><LineBreak/><Run Text="nec imperdiet posuere. Curabitur pulvinar sem vitae aliquet molestie. Vivamus egestas congue metus, id vestibulum ligula molestie at. Nulla porttitor ac neque nec tempor."/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run FontWeight="Bold"/></TextBlock>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="320" Margin="60,660,0,0" Stroke="Black" VerticalAlignment="Top" Width="530"/>
+		<TextBox HorizontalAlignment="Left" Height="28" Margin="60,665.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="Ticket Type" VerticalAlignment="Top" Width="100" TextAlignment="Center"/>
+		<TextBox HorizontalAlignment="Left" Height="30" Margin="165,665.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="Cost" VerticalAlignment="Top" Width="65" TextAlignment="Center"/>
+		<TextBox HorizontalAlignment="Left" Height="30" Margin="370,665.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top" Width="70" TextAlignment="Center"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="210" Margin="67,750,0,0" Stroke="Black" VerticalAlignment="Top" Width="253"/>
+		<TextBox HorizontalAlignment="Left" Height="28" Margin="60,708.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="All Day Pass" VerticalAlignment="Top" Width="100" TextAlignment="Center"/>
+		<TextBox HorizontalAlignment="Left" Height="28" Margin="165,708.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="£95" VerticalAlignment="Top" Width="65" TextAlignment="Center"/>
+		<Grid Margin="265,700.847,65,399.153">
+			<pc:SketchCircleUC HorizontalAlignment="Left" Height="36" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="40"/>
+			<pc:SketchCircleUC HorizontalAlignment="Left" Height="36" Margin="50,0,0,0" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="40"/>
+			<pc:SketchCircleUC HorizontalAlignment="Left" Height="36" Margin="100,0,0,0" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="40"/>
+			<pc:SketchCircleUC HorizontalAlignment="Left" Height="36" Margin="155,0,0,0" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="40"/>
+			<pc:SketchCircleUC HorizontalAlignment="Left" Height="36" Margin="215,0,0,0" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="40"/>
+			<pc:SketchCircleUC HorizontalAlignment="Left" Height="36" Margin="270,0,0,0" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="40"/>
+		</Grid>
+		<TextBox HorizontalAlignment="Left" Height="25" Margin="425,760,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="Days" VerticalAlignment="Top" Width="70" TextAlignment="Center"/>
+		<TextBox HorizontalAlignment="Left" Height="28" Margin="340,838.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" Text="Promotional Code" VerticalAlignment="Top" Width="135" TextAlignment="Center"/>
+		<TextBox HorizontalAlignment="Left" Height="28" Margin="480,838.847,0,0" Style="{DynamicResource BasicTextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+		<TextBlock HorizontalAlignment="Left" Height="16.847" Margin="340,943.847,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Total Amount: £xx.xx" VerticalAlignment="Top" Width="135"/>
+		<Button Content="18TH" HorizontalAlignment="Left" Height="25" Margin="340,805,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="70"/>
+		<Button Content="19TH" HorizontalAlignment="Left" Height="25" Margin="424,805,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="70"/>
+		<Button Content="20TH" HorizontalAlignment="Left" Height="25" Margin="507.342,805,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="70"/>
+		<TextBlock HorizontalAlignment="Left" Height="25" Margin="180,920,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Map of campsite" VerticalAlignment="Top" Width="116.334"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="283.335,709.667,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="1" VerticalAlignment="Top" Width="25"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="330.331,710.066,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="2" VerticalAlignment="Top" Width="25"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="380.331,710.066,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="3" VerticalAlignment="Top" Width="25"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="435.692,710.066,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="4" VerticalAlignment="Top" Width="25"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="495,709.667,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="5" VerticalAlignment="Top" Width="25"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="550,708.847,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="6" VerticalAlignment="Top" Width="25"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="45" Margin="245,610,0,0" Stroke="Black" VerticalAlignment="Top" Width="345"/>
+		<TextBlock HorizontalAlignment="Left" Height="19.153" Margin="250.331,623.847,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Width="155"><Run FontWeight="Bold" Text="Camp with your friends!"/></TextBlock>
+		<Button Content="Create group" HorizontalAlignment="Left" Height="34.153" Margin="405.331,615.949,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="105"/>
+		<pc:SketchCircleUC HorizontalAlignment="Left" Height="34.153" Margin="520,615.949,0,0" Style="{DynamicResource Circle-Sketch}" VerticalAlignment="Top" Width="63.676"/>
+		<TextBlock HorizontalAlignment="Left" Height="19.153" Margin="536,623.847,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Share" VerticalAlignment="Top" Width="45"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="340,871.847,0,0" Stroke="Black" VerticalAlignment="Top" Width="235"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="395,890,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="CAPTCHA verification" VerticalAlignment="Top" Width="125"/>
+		<Button Content="Add to basket" HorizontalAlignment="Left" Height="26.153" Margin="475,943.847,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="108.676"/>
+		<Button Content="&#xA;Campsite 1" HorizontalAlignment="Left" Height="70" Margin="85,760,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="95" Opacity="0.5"/>
+		<Button Content="&#xA;Campsite 4" HorizontalAlignment="Left" Height="70" Margin="201.334,838.847,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="95" Opacity="0.5"/>
+		<Button Content="&#xA;Campsite 3" HorizontalAlignment="Left" Height="70" Margin="77,840.847,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="95" Opacity="0.5"/>
+		<Button Content="&#xA;Campsite 2" HorizontalAlignment="Left" Height="70" Margin="201.334,760,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="95" Opacity="0.5"/>
+		<local:Template_1 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+	</Grid>
+</UserControl>

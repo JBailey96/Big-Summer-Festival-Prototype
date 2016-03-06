@@ -1,0 +1,30 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:BigSummerFestivalProjScreens" x:Name="BigSummerFestivalProjScreens_Ticketing_1_Name"
+	mc:Ignorable="d"
+	x:Class="BigSummerFestivalProjScreens.Ticketing_1"
+	Width="640" Height="1136">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<TextBlock HorizontalAlignment="Stretch" Margin="290,83.1,98.5,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Height="45.1" Text="Tickets"/>
+		<Rectangle Fill="White" Stroke="Black" Margin="254.5,179.063,53,0" VerticalAlignment="Top" Height="30.064"/>
+		<TextBlock Margin="0,179.127,98.5,0" VerticalAlignment="Top" Height="30" Text="Managers Specials " TextWrapping="Wrap" TextAlignment="Center" HorizontalAlignment="Right" Width="220.8" LineHeight="16"/>
+		<Button Margin="0,0,149.8,694.541" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="44.4" Content="General" HorizontalAlignment="Right" Width="139.6"/>
+		<Button Margin="0,0,54,533.168" Style="{DynamicResource Button-Sketch}" Content="Backstage" HorizontalAlignment="Right" Width="139.6" VerticalAlignment="Bottom" Height="44.4"/>
+		<Button Margin="262,0,238.4,612.641" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="44.4" Content="Camping"/>
+		<Button Margin="262,0,238.4,533.168" Style="{DynamicResource Button-Sketch}" Content="VIP Upgrade" VerticalAlignment="Bottom" Height="44.4"/>
+		<Button Margin="0,0,54,612.641" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Height="44.4" Content="Disabled" HorizontalAlignment="Right" Width="139.6"/>
+		<Rectangle Fill="White" Stroke="Black" Margin="241.755,705.432,45.5,157.7"/>
+		<TextBlock Margin="241.755,708.432,111.245,0" VerticalAlignment="Top" Height="182.4" Text="Information about each ticket appears " TextWrapping="Wrap"/>
+		<Rectangle Fill="White" Stroke="Black" HorizontalAlignment="Left" Margin="44,684.432,0,0" VerticalAlignment="Top" Width="185.5" Height="43.2"/>
+		<TextBlock HorizontalAlignment="Left" Margin="49.113,696.432,0,0" VerticalAlignment="Top" Width="138.655" Height="31.2" Text="Link to merchandise page" TextWrapping="Wrap"/>
+		<Rectangle Fill="White" Stroke="Black" HorizontalAlignment="Left" Margin="43.5,749.232,0,0" VerticalAlignment="Top" Width="185.5" Height="43.2"/>
+		<TextBlock HorizontalAlignment="Left" Margin="48.388,759.732,0,0" VerticalAlignment="Top" Width="138.655" Height="31.2" TextWrapping="Wrap"><Run Text="Link to "/><Run Text="Camping page"/></TextBlock>
+		<Rectangle Fill="White" Stroke="Black" Margin="257.9,258.627,243.8,0" VerticalAlignment="Top" Height="72.309"/>
+		<TextBlock Margin="259.4,273.8,242.3,0" LineHeight="16" Text="Countdown to pre-sale" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="30"/>
+		<Rectangle Fill="White" Stroke="Black" Margin="0,258.627,53,0" VerticalAlignment="Top" Height="72.309" HorizontalAlignment="Right" Width="138.3"/>
+		<local:Template_1 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+	</Grid>
+</UserControl>

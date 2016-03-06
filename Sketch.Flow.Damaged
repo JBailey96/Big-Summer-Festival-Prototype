@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2">
+  <SketchFlowGuid>61154e39-9aae-4bbc-bc43-4b0cfd4c3898</SketchFlowGuid>
+  <StartScreen>CSC1009___prototypeScreens.Screen_1</StartScreen>
+  <Screens>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>CSC1009___prototypeScreens.Screen_1</ClassName>
+      <DisplayName>Home</DisplayName>
+      <FileName>Screen 1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>CSC1009___prototypeScreens.Copy_of_Home</ClassName>
+      <DisplayName>My Account</DisplayName>
+      <FileName>Copy of Home.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>0</X>
+        <Y>35</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+  </Screens>
+  <Connections>
+    <Connection>
+      <Source>CSC1009___prototypeScreens.Screen_1</Source>
+      <Target>CSC1009___prototypeScreens.Copy_of_Home</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>CSC1009___prototypeScreens.Copy_of_Home</Source>
+      <Target>CSC1009___prototypeScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+  </Connections>
+  <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
+  <RuntimeOptions>
+    <HideNavigation>false</HideNavigation>
+    <HideFlowGraph>false</HideFlowGraph>
+    <HideAnnotationAndInk>false</HideAnnotationAndInk>
+    <DisableInking>false</DisableInking>
+    <HideDesignTimeAnnotations>false</HideDesignTimeAnnotations>
+  </RuntimeOptions>
+  <VisualTags>
+    <VisualTag>
+      <Name>Navigation</Name>
+      <Color>FF1E2AD6</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Component</Name>
+      <Color>FF178F11</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Yellow</Name>
+      <Color>FFFEC600</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Orange</Name>
+      <Color>FFF06000</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Red</Name>
+      <Color>FFCC0202</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Violet</Name>
+      <Color>FF780099</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Gray</Name>
+      <Color>FF6B6B6B</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>White</Name>
+      <Color>FFFFFFFF</Color>
+    </VisualTag>
+  </VisualTags>
+  <ViewState>
+    <Zoom>1</Zoom>
+    <Center>
+      <X>349</X>
+      <Y>14.991186906260733</Y>
+    </Center>
+  </ViewState>
+</Data>
